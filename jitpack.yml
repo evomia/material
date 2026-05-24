@@ -5,4 +5,4 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=app/libs/library.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.AbdoAhmedElbanaa -DartifactId=material -Dversion=5.1.1 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.evomia -DartifactId=material -Dversion=5.1.1 -Dpackaging=aar -DgeneratePom=true
