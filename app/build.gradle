@@ -55,7 +55,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.evomia'
             artifactId = 'material'
-            version = "5.1.0"
+            version = "5.1.1"
             pom {
                 description = 'evomia Material Library'
             }
