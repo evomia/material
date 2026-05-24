@@ -53,11 +53,11 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.github.AbdoAhmedElbanaa'
+            groupId = 'com.github.evomia'
             artifactId = 'material'
             version = "5.1.0"
             pom {
-                description = 'AbdoAhmedElbanaa Material Library'
+                description = 'evomia Material Library'
             }
         }
     }
